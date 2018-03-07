@@ -1,5 +1,24 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .head
+    form.notaform(method="get" action="/")
+      button.btn.btn-outline-primary(type="submit") Infos
+    span  
+    form.notaform(method="get" action="/experience")
+      button.btn.btn-outline-primary(type="submit") Experiences
+    span  
+    form.notaform(method="get" action="/formation")
+      button.btn.btn-outline-primary(type="submit") Formations
+    span 
+    form.notaform(method="get" action="/contact")
+      button.btn.btn-outline-primary(type="submit") Contact
+  .container
+    if page == "experience"
+      +exp
+    else if page == "formation"
+      +for
+    else if page == "contact"
+      +con
+    else
+      +inf

@@ -1,0 +1,40 @@
+{
+    "infos": [
+        { "name": "Oscar Caldarelli",
+          "address": "Chemin du puissanton Bat B3",
+          "phone": "06 95 53 31 83"
+        }
+    ],
+    
+    "experiences": [
+        { "dates":"2016 - Maintenant" ,
+          "content":"Développeur Logiciel – MANDRAKE ( Auto-Entrepreneur ) /       - Création de sites Web - Création d'applications",
+          "place":" " },
+        { "dates":"2013 - 2015" ,
+          "content":"Technicien de maintenance Informatique - ACTIF AZUR /       Rénovation d’ordinateurs - Résolution de problèmes techniques - Co-animation de la formation : « Premier pas dans l’informatique »",
+          "place":"Antibes" },
+        { "dates":"2012 – Maintenant" ,
+          "content":"Informaticien - V.I.A. (Association Culturelle Céramique) /       Maintenance des ordinateurs - Création et maintenance du site internet - Rédaction, Édition de contenu et Design avec Photoshop",
+          "place":"Salernes" },
+        { "dates":"2010 - 2012" ,
+          "content":"Technicien de maintenance Informatique - AM Informatica /       Support informatique hardware/software pour une vingtaine de PME",
+          "place":"Lanciano - Italie" },
+        { "dates":"2008 - 2010" ,
+          "content":"Technicien Informatique Bénévole - Lycée L. Da Vinci /      Création de script pour faciliter les tâches répétitives en python et bash",
+          "place":"Lanciano - Italie" }
+    ],
+
+    "formations": [
+        
+        { "dates":"2017 - 2018" ,
+          "content":"Développeur Web Mobile - CESI Entreprises" ,
+          "place":"Sophia-Antipolis" },
+        { "dates":"2015 - 2016" ,
+          "content":"Formation Développeur Logiciel / Niveau Bac +2 - AFPA" ,
+          "place":"Nice" },
+        { "dates":"2008 - 2012" ,
+          "content":"Bac Industriel Électronique" ,
+          "place":"Lanciano" }
+
+    ]
+ }

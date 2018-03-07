@@ -1,0 +1,13 @@
+mixin for
+    table.table
+        thead
+            tr
+                th(scope="col") Date
+                th(scope="col") Formation
+                th(scope="col") Lieu
+        each val in json.formations
+            tbody
+                tr
+                    td #{val.dates}
+                    td #{val.content}
+                    td #{val.place}
